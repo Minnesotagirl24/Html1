@@ -1,19 +1,178 @@
-<!DOCTYPE html>
-    <html>
-    <head>
-     <meta charset="UTF-8">
-    <meta name= "description" content=" Photography blog">
-    <meta name="keywords" content="HTML,CSS,JavaScript">
-    <meta name="author" content= "Abigail Ries">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>  
+<DOCTYPE html>
+<html lang=]"en>
+<head>
+	<meta name="viewport" content= "width, intitial-scale=1.0">
+	<meta name="description" content="My Final Webpage">
+	<meta name="keywords" content="HTML, CSS, JavaSCript">
+	<meta name="author" content="Abigail Ries">
+	<div class="center">
+<!-- Abigail Ries Final Website 12/17/2021 --> 
+</head>
+<style>
+body {background-color: #66B032;}
+font-family:"Lucida Console", "Courier New", monospace;
+  font-size:40 px;
+  
+  /* unvisited link */
+a:link {
+  color: #8601AF;
+}
+
+/* visited link */
+a:visited {
+  color: #2A0934;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Console", "Courier New", monospace;
+  padding: 40px;
+  background: ##E3F7D4;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 10px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 80px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: ##66B032;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: ##8601AF;
+  text-align: center;
+  padding: 10px 14px;
+  text-decoration: wrap;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 50%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 40%;
+  background-color: #f1f1f1;
+  padding-left: 40px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 50px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+<div class="header">
+
+</style>
+</head>
 <body>
-<b> HI</b>
-<img src="/riesabis/images/dog.jpg" alt="Dog" width="500" height="600">
-<img src="images/flower.JPG" alt="picture of a flower in spring" width="380" height="380">
-<i> HI</i>
-<em< HI</em>
+
+
+<div class="header">
+
+  <h1>Abigail Ries' Photography Blog</h1>
+  <p>Current projects,Portfolio and much much more!</p>
+</div>
+
+<div class="topnav">
+	<a href="Blogposts.html">Blog Post</a>
+	<a href="Portfolio.html">Portfolio</a>
+	<a href="Contact.html">Contact us</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Photopgraphy Tip of the day:</h2>
+      <h5>Try to take pictures at different heights, this will diversify your pictures and make them more unique</h5>
+    </div>
+	
+	<div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+	  <img src="IMG_2782.jpg" alt="Picture of Page Owner" width="250" height="350">
+      <p>Age:24
+		Hobbies; Photography, Traveling and Reading
+		Siblings:2, an Older Brother and a Younger Sister
+		Favorite thing to Photograph: Landscapes and Cityscapes.
+	</p
+    </div>
+    <div class="card">
+      <h3>My Portfolio</h3>
+     <img src="IMAG0013.jpg" alt="Taylors Falls MN" width="550" height="450">
+     <img src="IMAG0077.jpg" alt="Lake Superior" width="550" height="450"> 
+	 <img src="IMAG0780.jpg" alt="Hydrangea Bush" width="550" height="450">
+	 <img src="IMAG1465.jpg" alt="Koi Pond at Como Zoo and Conservatory" width="550" height="450">
+	 <img src="IMAG1743.jpg" alt="Sunset on a Lake" width="550" height="450">
+    </div>
+    <div class="card">
+      <h3>Contact Me</h3>
+	    <p>For further inquiries or questions , Contact me at the following;
+	  Email: Abigailries24@gmail.com
+	  Instagram:@AbbytheAdventurer 
+	  VSCO : @abbytheadventurer</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Thanks for visiting my blog!</h2>
+</div>
 
 </body>
 </html>
-
